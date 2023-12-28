@@ -1,7 +1,7 @@
 ##**Restaurant Ordering App**
 
 
-**Live Link**:
+**Live Link of the Restaurant Ordering App**: [Adi's Diner](https://wondrous-profiterole-23edfc.netlify.app/)
 
 
 This App is built using **JavaScript, HTML and CSS**. It helps in oredering food from the restaurant's menu list and the payment can be made online through payment window
