@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="index.css">
+        <title>RESTAURANT ORDERING APP</title>
+    </head>
+    <body>
+        <header class="hero-image">
+            <div class="top-container">
+                <h1>Adi's Diner</h1>
+                <h3>Best Pizzas and Burgers in town</h3>  
+            </div> 
+        </header>
+        <main>
+            <!-- MENU -->
+
+            <div id="menu-card">
+
+            </div>
+
+            <!-- ORDERED ITEMS -->
+
+            <h1 id="order-heading">Your Order</h1>
+            <div id="order-box">   
+            </div>
+
+            <div id="total">
+                <h4>Total Price:</h4>
+                <h2 id="final-price"></h2>
+            </div>
+
+            <!-- COMPLETE ORDER BTN -->
+
+            <div class="btn">
+                <button id="purchase-btn">Complete Order</button>
+            </div>
+
+              <!-- PAYMENT WINDOW  -->
+
+            <div id="modal" class="modal">
+                <h3> Enter Card Details</h3>
+                <form class="modal-inner" id="form-id">
+                    <input type="name" name="fullName" required placeholder="enter your name" aria-label="full Name" />
+                    <input type="number" name="cardNumber" required placeholder="enter card number" aria-label="card number" />
+                    <input type="number" name="cvv" required placeholder="enter CVV" aria-label="CVV" />
+                    <button type="submit" class="pay-btn" id="pay-btn" aria-label="payment-button">Pay</button>
+                </form>
+
+            </div>
+            <!-- ORDER CONFIRMATION MESSAGE -->
+
+            <div id="order-msg-box">
+                <p id="order-msg"></p>
+                <p id="alert-msg"></p>
+            </div>
+        </main>
+       
+
+        <script src ="index.js" type="module"></script>
+    </body>
+    </html>

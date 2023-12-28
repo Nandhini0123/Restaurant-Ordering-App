@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Smythe', cursive;
+    color: rgb(11, 135, 243);
+    width:600px;
+    background-color: #fcf9f9; 
+    border: 1px solid rgb(233, 231, 231);
+}
+
+main{
+    padding: 15px;
+}
+
+/* HERO IMAGE */
+
+.hero-image {
+    background-image: url("Images/ferks-guare-KEZdWfYD-ow-unsplash\ 1.jpg");
+    background-color: #cccccc; 
+    width:600px;
+    height: 160px; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative;     
+}
+
+.top-container{
+    position: absolute;
+    margin-top:40px;
+    margin-left: 180px;
+    margin-bottom: 40px;
+   
+} 
+
+/* MENU */
+     
+.food-items{
+    display:flex;
+    padding: auto 0px;
+    margin: 0px 45px;
+    border-bottom:1px solid #D2D2D2;
+    justify-content: space-between;
+}
+
+.food-details{
+    display: flex;
+    margin-left: 0px;
+    padding: 10px;
+    column-gap: 30px;
+}
+
+.food-emoji{
+    display:flex;
+    align-items: center;
+    column-gap: 30px;
+    height: 89px;
+    width: 70px;
+    font-size: 78px;
+    line-height: 98px;
+    margin: auto 25px;
+    padding: 0px;
+}
+
+.add-items{
+    display:flex;
+    align-items: center;
+} 
+#name{
+    font-size: 28px;
+    color: black;
+    margin-bottom: 0px;
+
+}
+#ingredients{
+    font-size: 16px;
+    color:#8B8B8B;
+    line-height: 24px;
+    margin-top: 0px;
+}
+
+#price{
+    font-size: 20px;
+    color: black;
+    margin-top: 0px;
+}
+#menu-card{
+    background-color: #fcf9f9;
+}
+
+#add-btn{
+    border: 1px solid rgb(200, 198, 198);
+    border-radius: 50%;
+    font-size:x-small;
+    padding: 15px;
+}
+
+/******ORDER BOX *******/
+
+#order-heading{
+    display:none;
+    text-align: center;
+    /* background-color: rgb(243, 245, 247); */
+    background-color: #fcf9f9;
+}
+
+#order-box, #total {
+    background-color: #fcf9f9;
+}
+
+.item-name-remove{
+    display:flex;
+    column-gap: 6px;
+    justify-content: center;
+}
+.item-name-price{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-name{
+    font-size: 28px;
+}
+#remove-item-btn{
+    color:#BBBBBB;
+    font-size: 12px;
+    font-family: Verdana, sans-serif;
+    align-self: center;
+
+}
+
+/* TOTAL PRICE */
+
+#total{
+    /* visibility: hidden; */
+    border-top: 2px solid black;
+    display:none;
+    justify-content: space-between;
+    font-size: 28px;
+    background-color: rgb(243, 245, 247);
+}
+
+#final-price{
+    font-size: 20px;
+    align-items: center;
+}
+
+.btn{
+    text-align: center;
+}
+
+#purchase-btn{
+    display: none;
+    width: 508px;
+    height: 60px; 
+    font-size: 16px;
+    background-color: #16DB99;
+    margin: auto;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    color:azure;
+    border-style: none;
+}
+/* modal PAYMENT WINDOW*/
+#modal{
+    visibility: hidden;
+    position: fixed;
+    top: 30px;
+    left: 35px;
+    right: 30px;
+    /* margin: auto; */
+    width: 530px;
+    height: 540px;
+    border: black solid 1px;
+    padding:25px;
+    text-align: center;
+    background-color: #fff;
+}
+
+input{
+    margin-top: 20px; 
+    border: 1px solid #212529;
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    border-radius: 3px;
+}
+#pay-btn{
+    font-size: 20px;
+    width: 100%;
+    background-color: #16DB99;
+    color:white;
+    border-style: none;
+    margin-top: 25px;
+    height: 70px;
+}
+
+/* ORDER CONFIRMATION MSG */
+
+#order-msg-box{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    color:#065F46;
+    width: 504px;
+    height: 120px;
+    background-color: #cdfaeb;
+    margin: 25px auto;
+}
+
